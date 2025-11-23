@@ -21,7 +21,6 @@ Bing Video Creator (Sora)
 
 "Create an ultra HD, natural-looking video of a peaceful forest during early morning. Sunlight filters through tall trees, soft mist on the ground, detailed textures on leaves and bark, realistic shadows, and gentle wind moving the branches. Camera moves slowly forward on a steady cinematic path. Colors should be natural, sharp, and lifelike."
 
-
 ---
 
 ### Procedure

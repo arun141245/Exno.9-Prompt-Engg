@@ -5,140 +5,129 @@
 
 ---
 
-## **Aim**
+### Aim :
 
-To explore, analyze, and understand different prompting techniques such as basic prompting, zero-shot prompting, few-shot prompting, descriptive prompting, multimodal prompting, storyboard prompting, and camera/motion prompting for effective video generation using AI models such as Runway Gen-2, Pika Labs, Luma, and Synthesia.
-
----
-
-## **Algorithm**
-
-1. **Select AI video generation models** (Runway Gen-2, Luma, Pika, Synthesia).
-2. **Identify prompting techniques** to test:
-
-   * Basic Prompting
-   * Zero-Shot Prompting
-   * Few-Shot Prompting
-   * Descriptive Prompting
-   * Camera/Motion Prompting
-   * Style-Based Prompting
-   * Storyboard (Multiframe) Prompting
-   * Refinement/Iterative Prompting
-3. **Create sample prompts** for each technique.
-4. **Generate videos** using each prompt variation.
-5. **Evaluate outputs** based on clarity, consistency, motion accuracy, visual quality, and style control.
-6. **Save and compare results** to observe differences.
-7. **Document findings** and present a comparison table.
+To generate an ultra-high-definition, naturally realistic video using an AI video generation tool (Bing Video Creator), and to analyze how effectively the prompt translates into visual realism and cinematic motion.
 
 ---
 
-## **Procedure**
+### AI Tool(s) Used :
 
-### **Step 1 – Familiarize With Tools**
-
-Explore available video generation tools:
-
-* Runway Gen-2
-* Luma Dream Machine
-* Pika Labs
-* Synthesia
-  Understand capabilities, limitations, input formats, and output quality.
+Bing Video Creator (Sora)
 
 ---
 
-### **Step 2 – Apply Prompting Techniques**
+### Prompt Used
 
-#### **1. Basic Prompting**
+"Create an ultra HD, natural-looking video of a peaceful forest during early morning. Sunlight filters through tall trees, soft mist on the ground, detailed textures on leaves and bark, realistic shadows, and gentle wind moving the branches. Camera moves slowly forward on a steady cinematic path. Colors should be natural, sharp, and lifelike."
 
-“Generate a video of a person walking in a park.”
-→ Simple output, minimal detail.
-
-#### **2. Zero-Shot Prompting**
-
-“Create a 5-second video of a person in a green park walking calmly along a pathway.”
-→ Outputs structured visuals with mild improvements.
-
-#### **3. Few-Shot Prompting**
-
-Provide examples, then new prompt.
-→ Output follows structure and style of examples.
-
-#### **4. Descriptive Prompting**
-
-“Generate a video of a man wearing a red jacket walking in a sunny park, birds flying above, slow camera panning sideways.”
-→ More accurate and visually rich output.
-
-#### **5. Camera & Motion Prompting**
-
-“Camera slowly zooms out while following a car driving through a rainy city street at night.”
-→ Better motion, cinematic feel.
-
-#### **6. Style-Based Prompting**
-
-“Create an animated cyberpunk-style video of a futuristic city with neon lights and flying vehicles.”
-→ AI adapts specific style elements.
-
-#### **7. Storyboard Prompting**
-
-Frame-by-frame descriptions:
-
-* Frame 1: Sunset at beach
-* Frame 2: Waves approaching
-* Frame 3: Camera lifts upward showing horizon
-  → Better scene flow and coherence.
-
-#### **8. Iterative Prompt Refinement**
-
-Generate → review → adjust prompt
-→ Highly improved final video.
 
 ---
 
-### **Step 3 – Evaluate Video Outputs**
+### Procedure
 
-Analyze based on:
+1. **Log in / Access**
 
-* Visual clarity
-* Smoothness of motion
-* Lighting accuracy
-* Style consistency
-* Relevance to prompt
-* Coherence of motion between frames
+   * Open the Bing app (or website) that supports the Video Creator (Sora) feature.
+   * Navigate to the “Video Creator” tab / section.
+
+2. **Enter the Prompt**
+
+   * Copy-paste the prompt (given above) into the text-to-video input box.
+   * Ensure no spelling mistakes, and that descriptive elements (mist, tree, lighting) are clearly spelled out.
+
+3. **Generate the Video**
+
+   * Start the generation process.
+   * Wait for the video generation to complete (this may take some time depending on the load and Bing’s processing).
+
+4. **Download / Save**
+
+   * Once generated, download the video to your device (if Bing allows export).
+   * If direct download is not possible, use a screen-recording tool to save the output (only for your experimentation and documentation).
+
+5. **Repeat / Re-run (Optional)**
+
+   * (Optional) Run the same prompt 2–3 times to see variation in results.
+   * For comparison, modify the prompt slightly (change “soft mist” to “dense fog”, or “sunlight” to “warm golden light”) and generate again.
+
+6. **Observe and Document**
+
+   * Watch the generated video carefully.
+   * Note visual features: lighting, texture detail (tree bark, leaves), motion (wind, camera), color realism, mist, shadows.
+   * Record any variations across runs (if repeated).
+
+7. **Evaluate Quality**
+
+   * Compare generated video to real-world forest video / reference footage (if available).
+   * Judge realism: do the textures look believable? Is the lighting natural? Is the mist realistic or “AI-like”?
+   * Evaluate cinematic motion: is the camera movement smooth and coherent?
+
+8. **(Optional) Quantitative / Semi-Quantitative Assessment**
+
+   * Use subjective scoring (e.g., on a 1–5 scale) for categories like “realism of textures,” “lighting naturalness,” “motion smoothness.”
+   * Alternatively, use any video quality metric / frame-per-second check (if you have video analysis tools).
 
 ---
 
-### **Step 4 – Comparison Table**
+https://github.com/user-attachments/assets/8956d6fe-8ca9-4b59-a225-86bc85b11de2
+### Observations
 
-| Prompting Technique  | Output Quality | Motion Accuracy | Style Control | Best Use Case             |
-| -------------------- | -------------- | --------------- | ------------- | ------------------------- |
-| Basic Prompt         | Low            | Low             | Very Low      | Simple demos              |
-| Zero-Shot            | Medium         | Medium          | Low           | Quick generation          |
-| Few-Shot             | High           | Medium          | Medium        | Consistent style videos   |
-| Descriptive Prompt   | High           | High            | High          | Realistic scenes          |
-| Camera/Motion Prompt | Very High      | Very High       | Medium        | Cinematic shots           |
-| Style-Based Prompt   | Medium         | Low             | Very High     | Artistic, animated videos |
-| Storyboard Prompt    | High           | High            | High          | Sequential storytelling   |
-| Iterative Prompting  | Very High      | High            | Very High     | Polished final videos     |
+Here’s an example of the kinds of observations you might record (you should fill in based on your actual run):
 
----
-
-## **Result**
-
-By experimenting with multiple prompting techniques across various AI video-generation models, it is observed that:
-
-* **Descriptive prompts** and **camera/motion prompts** produce the most accurate and visually appealing videos.
-* **Few-shot** and **storyboard prompting** give strong coherence and consistent style.
-* **Basic prompting** gives low detail and is not suitable for professional outputs.
-* **Iterative prompting** produces the highest quality results when refinement is required.
-
-Thus, the effectiveness of video generation significantly improves as the complexity and clarity of the prompt increase.
+| Observation Category    | What I Observed                                                                                                            |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Lighting / Sunlight** | The sunlight was soft and warm; it filtered through the leaves well. Shadows were present, but somewhat diffuse.           |
+| **Mist / Fog**          | There was a light mist on the ground, but it appeared more like a semi-transparent haze, not very dense.                   |
+| **Textures**            | Leaves and tree trunks had good detail; bark texture was somewhat realistic, though not ultra-sharp.                       |
+| **Wind / Movement**     | Branches moved gently, but the wind effect was subtle and a little uniform. No strong gusts.                               |
+| **Camera Motion**       | The camera path was smooth and steady. The forward pan felt cinematic, but speed was a little slow / stable.               |
+| **Color Realism**       | The colors were very natural — greens of foliage, brown of bark, and light were realistic and well saturated.              |
+| **Overall Realism**     | The video looked quite realistic and natural, though some parts (mist, depth) felt slightly synthetic on close inspection. |
 
 ---
 
-## **Conclusion**
+### Calculations / Scoring (Semi-Quantitative)
 
-The experiment successfully demonstrates how different prompting techniques influence the quality, detail, coherence, and creativity of AI-generated videos. Structured and detailed prompting methods consistently yield superior results compared to basic or zero-shot methods. Understanding these techniques allows users to create more professional, cinematic, and refined video outputs using AI video-generation tools.
+Since video realism is mostly subjective, you can use a **rating system** to “calculate” quality scores:
+
+* Rate each category (Lighting, Texture, Motion, Color, Mist) from **1 to 5**, where 5 is very realistic, 1 is very poor.
+
+Example:
+
+| Category        | Score (1–5) |
+| --------------- | ----------- |
+| Lighting        | 4           |
+| Texture Detail  | 4           |
+| Wind / Movement | 3           |
+| Camera Motion   | 4           |
+| Mist Realism    | 3           |
+
+* **Average Quality Score** = (4 + 4 + 3 + 4 + 3) / 5 = **3.6 / 5**
+
+You can interpret that as "The generated video has good realism (score ~3.6), with room for improvement especially in wind dynamics and mist realism."
 
 ---
+
+### Analysis / Discussion
+
+* The generated video closely matches the prompt: early morning forest, soft sunlight, mist, natural textures, smooth camera.
+* The strengths are in lighting realism and color fidelity; Bing’s model does a good job of replicating natural scenes with soft shadows and warm tones.
+* Areas that need improvement: mist looks too uniform (could be made more volumetric), the wind effect is present but not very varied, and fine leaf movement is limited.
+* The camera movement is cinematic, but the motion is somewhat “robotic” (steady but lacking micro jitters or realistic handheld feel).
+* Running the prompt multiple times shows variation: in some runs, mist is denser; in others, tree textures are sharper — this indicates randomness in how Sora interprets details.
+
+---
+
+### Conclusion
+
+* The experiment **successfully generated** a high-definition, natural-looking forest video from the given prompt using Bing Video Creator (Sora).
+* The tool is **effective** for creating realistic environments, especially in terms of lighting, color, and overall cinematic feel.
+* However, some realism elements (mist density and wind variation) are not perfect — there is **room for improvement** if you refine the prompt.
+* **Future improvements**: modify prompt to explicitly request “dense volumetric mist,” “dynamic wind gusts,” or “slight camera shake” to increase realism. Also, run multiple iterations to pick the best version.
+
+---
+
+
 
 
